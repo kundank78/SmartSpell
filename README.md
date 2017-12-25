@@ -1,2 +1,2 @@
 # SmartSpell
-It reads text from images and save them as well as speaks it.It is like a story teller.
+This is an Android Application which extracts text from images using Microsoft API which further can be used for reading out the text as a  story-teller.

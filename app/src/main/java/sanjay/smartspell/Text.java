@@ -239,8 +239,9 @@ public class Text extends AppCompatActivity implements
                 Contract.DataEntry._ID,
                 Contract.DataEntry.StoryName,
                 Contract.DataEntry.story_text};
+         //This loader will execute the ContentProvider's query method on a background thread
 
-        // This loader will execute the ContentProvider's query method on a background thread
+       
         return new CursorLoader(this,   // Parent activity context
                 dataUri,         // Query the content URI for the current pet
                 projection,             // Columns to include in the resulting Cursor
